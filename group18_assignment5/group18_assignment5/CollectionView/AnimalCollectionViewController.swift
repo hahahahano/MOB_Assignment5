@@ -12,7 +12,8 @@ class AnimalCollectionViewController: UICollectionViewController {
     //MARK: Properties
     private let reuseIdentifier = "galleryCell"
     private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
-
+    var gallery = [AnimalGallery]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,18 +42,26 @@ class AnimalCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        //NEED TO COME BACK TO THIS
-        return 5
+        return 3
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
     
-        //let animalGalleryPhoto = photo(for: indexPath)
-        //cell.imageView.image = whatever
+        //Configure cell here
     
         return cell
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "Header", for: indexPath)
+        let footerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "Footer", for: indexPath)
+
+        //headerView.headerLabel.text =
+        //footerView.footerLabel.text =
+        
+        return headerView
+      }
 
     // MARK: UICollectionViewDelegate
 

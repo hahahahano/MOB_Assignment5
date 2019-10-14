@@ -12,9 +12,6 @@ class AnimalTableViewController: UITableViewController {
     //MARK: Properties
     var animals = [Animal]()
     
-    //MARK: Actions
-    
-    
     //MARK: Private Methods
     private func loadAnimals() {
         let photo1 = UIImage(named:"arcticFox")
@@ -53,7 +50,7 @@ class AnimalTableViewController: UITableViewController {
         loadAnimals()
     }
 
-    // MARK: - Table view data source
+    //MARK: Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

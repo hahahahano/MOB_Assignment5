@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>beluga1</key>
+		<string>A smile for you!</string>
+		<key>beluga2</key>
+		<string>A mother whale with its kid</string>
+		<key>beluga3</key>
+		<string>A pod of whales!</string>
+	</dict>
+	<dict>
+		<key>humpbackWhale1</key>
+		<string>Leaping out to see you!</string>
+		<key>humpbackWhale2</key>
+		<string>A mother whale with its kid</string>
+		<key>humpbackWhale3</key>
+		<string>Goodbye!</string>
+	</dict>
+	<dict>
+		<key>narwhal1</key>
+		<string>A pod of narwhals</string>
+		<key>narwhal2</key>
+		<string>A narwhal just trying to break the ice</string>
+		<key>narwhal3</key>
+		<string>An underwater shot of a narwhal</string>
+	</dict>
+	<dict>
+		<key>polarBear1</key>
+		<string>A polar bear crossing the ice</string>
+		<key>polarBear2</key>
+		<string>A polar bear with its kid</string>
+		<key>polarBear3</key>
+		<string>Traversing the land in the evening</string>
+	</dict>
+	<dict>
+		<key>ringedSeal1</key>
+		<string>A floating seal</string>
+		<key>ringedSeal2</key>
+		<string>A baby ringed seal!</string>
+		<key>ringedSeal3</key>
+		<string>Resting with its buddies</string>
+	</dict>
+	<dict>
+		<key>arcticFox1</key>
+		<string>An Arctic fox sleeping</string>
+		<key>arcticFox2</key>
+		<string>A pair of foxes playing!</string>
+		<key>arcticFox3</key>
+		<string>A fox looking right at the camera</string>
+	</dict>
+</array>
+</plist>

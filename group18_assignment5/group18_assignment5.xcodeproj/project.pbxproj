@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79816C09235404EE00671A11 /* Gallery.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79816C08235404EE00671A11 /* Gallery.plist */; };
+		79816C0B23540A5C00671A11 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816C0A23540A5C00671A11 /* GalleryItem.swift */; };
+		79816C0D23540EFB00671A11 /* GalleryCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816C0C23540EFB00671A11 /* GalleryCollectionReusableView.swift */; };
 		79BF69B32353AE7E00D747AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69B22353AE7E00D747AA /* AppDelegate.swift */; };
 		79BF69B52353AE7E00D747AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69B42353AE7E00D747AA /* ViewController.swift */; };
 		79BF69B82353AE7E00D747AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BF69B62353AE7E00D747AA /* Main.storyboard */; };
@@ -16,9 +19,14 @@
 		79BF69CB2353B48800D747AA /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69CA2353B48800D747AA /* AnimalTableViewCell.swift */; };
 		79BF69CD2353BEB800D747AA /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69CC2353BEB800D747AA /* AnimalTableViewController.swift */; };
 		79BF69D12353E08000D747AA /* AnimalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69D02353E08000D747AA /* AnimalCollectionViewController.swift */; };
+		79BF69D32353EB5600D747AA /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69D22353EB5600D747AA /* AnimalCollectionViewCell.swift */; };
+		79BF69D52353EE5E00D747AA /* AnimalGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF69D42353EE5E00D747AA /* AnimalGallery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79816C08235404EE00671A11 /* Gallery.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Gallery.plist; sourceTree = "<group>"; };
+		79816C0A23540A5C00671A11 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		79816C0C23540EFB00671A11 /* GalleryCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionReusableView.swift; sourceTree = "<group>"; };
 		79BF69AF2353AE7E00D747AA /* group18_assignment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = group18_assignment5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BF69B22353AE7E00D747AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79BF69B42353AE7E00D747AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +38,8 @@
 		79BF69CA2353B48800D747AA /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
 		79BF69CC2353BEB800D747AA /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
 		79BF69D02353E08000D747AA /* AnimalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewController.swift; sourceTree = "<group>"; };
+		79BF69D22353EB5600D747AA /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
+		79BF69D42353EE5E00D747AA /* AnimalGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGallery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 				79BF69B42353AE7E00D747AA /* ViewController.swift */,
 				79BF69B62353AE7E00D747AA /* Main.storyboard */,
 				79BF69C42353AF9100D747AA /* Animal.swift */,
+				79BF69D42353EE5E00D747AA /* AnimalGallery.swift */,
 				79BF69B92353AE7F00D747AA /* Assets.xcassets */,
 				79BF69BB2353AE7F00D747AA /* LaunchScreen.storyboard */,
 				79BF69BE2353AE7F00D747AA /* Info.plist */,
@@ -78,8 +89,8 @@
 		79BF69CE2353DF8E00D747AA /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				79BF69CA2353B48800D747AA /* AnimalTableViewCell.swift */,
 				79BF69CC2353BEB800D747AA /* AnimalTableViewController.swift */,
+				79BF69CA2353B48800D747AA /* AnimalTableViewCell.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -88,6 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				79BF69D02353E08000D747AA /* AnimalCollectionViewController.swift */,
+				79BF69D22353EB5600D747AA /* AnimalCollectionViewCell.swift */,
+				79816C0A23540A5C00671A11 /* GalleryItem.swift */,
+				79816C08235404EE00671A11 /* Gallery.plist */,
+				79816C0C23540EFB00671A11 /* GalleryCollectionReusableView.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -153,6 +168,7 @@
 				79BF69BD2353AE7F00D747AA /* LaunchScreen.storyboard in Resources */,
 				79BF69BA2353AE7F00D747AA /* Assets.xcassets in Resources */,
 				79BF69B82353AE7E00D747AA /* Main.storyboard in Resources */,
+				79816C09235404EE00671A11 /* Gallery.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BF69D52353EE5E00D747AA /* AnimalGallery.swift in Sources */,
 				79BF69B52353AE7E00D747AA /* ViewController.swift in Sources */,
+				79816C0B23540A5C00671A11 /* GalleryItem.swift in Sources */,
+				79BF69D32353EB5600D747AA /* AnimalCollectionViewCell.swift in Sources */,
+				79816C0D23540EFB00671A11 /* GalleryCollectionReusableView.swift in Sources */,
 				79BF69CD2353BEB800D747AA /* AnimalTableViewController.swift in Sources */,
 				79BF69D12353E08000D747AA /* AnimalCollectionViewController.swift in Sources */,
 				79BF69CB2353B48800D747AA /* AnimalTableViewCell.swift in Sources */,
