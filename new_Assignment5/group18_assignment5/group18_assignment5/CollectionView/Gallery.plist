@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>An Arctic fox sleeping</string>
+		<string>A pair of foxes playing!</string>
+		<string>A fox looking right at the camera</string>
+	</array>
+	<dict>
+		<key>New item</key>
+		<string>A polar bear crossing the ice</string>
+		<key>New item - 2</key>
+		<string>A polar bear with its kid</string>
+		<key>New item - 3</key>
+		<string>Traversing the land in the evening</string>
+	</dict>
+	<dict>
+		<key>New item</key>
+		<string>A floating seal</string>
+		<key>New item - 2</key>
+		<string>A baby ringed seal!</string>
+		<key>New item - 3</key>
+		<string>Resting with its buddies</string>
+	</dict>
+	<dict>
+		<key>New item</key>
+		<string>A smile for you!</string>
+		<key>New item - 2</key>
+		<string>A mother whale with its kid</string>
+		<key>New item - 3</key>
+		<string>A pod of whales!</string>
+	</dict>
+	<dict>
+		<key>New item</key>
+		<string>Leaping out to see you!</string>
+		<key>New item - 2</key>
+		<string>A mother whale with its kid</string>
+		<key>New item - 3</key>
+		<string>Goodbye!</string>
+	</dict>
+	<dict>
+		<key>New item</key>
+		<string>A pod of narwhals</string>
+		<key>New item - 2</key>
+		<string>A narwhal just trying to break the ice</string>
+		<key>New item - 3</key>
+		<string>An underwater shot of a narwhal</string>
+	</dict>
+</array>
+</plist>
